@@ -1,0 +1,57 @@
+.header {
+  background-color: #082b24;
+}
+
+.header-nav {
+  box-shadow: 0 3px 3px 0;
+  background-image: linear-gradient(to right, #1abc9c,#169e82,#12816b,#149077,#10715e,#0e6151,#0c5043);
+  border-radius: 0 0 10px 10px;
+}
+
+.about-author img {
+  border-radius: 10%;
+}
+
+.footer {
+  background-color: #2f2f2f;
+}
+
+.accordion {
+  background-color: #e2e2e2;
+  border: none;
+  transition-duration: 2s;
+}
+
+.panel {
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  height: 0;
+  transition-duration: 1s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+  transform: scaleX(1.1);
+}
+
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #484d4eb3;
+    border-radius: 10%;
+}
+
+.about-author:hover .overlay {
+   opacity: 1;
+}
+
+.overlay-text {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.resume-box > iframe {
+  resize: vertical;
+}
